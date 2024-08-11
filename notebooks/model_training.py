@@ -109,7 +109,7 @@ def main():
     mlflow.set_tracking_uri("file:./mlruns")
     
     # Set the experiment name
-    mlflow.set_experiment("Emotion Recognition")
+    mlflow.set_experiment("Emotion Recognition V2")
 
     # Load reduced features
     features_path = os.path.join(current_dir, 'data', 'reduced_features.npy')

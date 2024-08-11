@@ -1,0 +1,12 @@
+model:
+  type: multimodal
+  num_classes: 8
+
+training:
+  num_epochs: 10
+  batch_size: 32
+  learning_rate: 0.001
+
+data:
+  audio_path: "wasbs://ravdess-audio@yourstorageaccount.blob.core.windows.net"
+  metadata_file: "metadata.csv"

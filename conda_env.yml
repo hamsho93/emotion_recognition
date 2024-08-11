@@ -1,0 +1,20 @@
+name: emotion_recognition
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - pip:
+    - azureml-core
+    - azure-storage-blob
+    - pydub
+    - torch
+    - torchaudio
+    - transformers
+    - mlflow
+    - librosa
+    - soundfile

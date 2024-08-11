@@ -1,0 +1,11 @@
+mlflow
+azureml-core
+azureml-mlflow
+torch
+torchaudio
+transformers
+numpy
+pandas
+scikit-learn
+matplotlib
+pytest

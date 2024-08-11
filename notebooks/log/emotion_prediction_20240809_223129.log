@@ -1,0 +1,18 @@
+2024-08-09 22:31:32,643 - INFO - Processing audio file: /Users/mahmoudhamsho/repos/emotion_recognition/notebooks/oot_audio/sample_customer_service_cal.wav
+2024-08-09 22:32:37,383 - INFO - Line: OK. | Emotion: calm
+2024-08-09 22:32:40,212 - INFO - Line: So what do you have? Do you have a long you? I guess not, not up there. See, I was raised in New York, but I guess up there you all don't have too long of a growing season, do you? | Emotion: calm
+2024-08-09 22:32:43,110 - INFO - Line: We probably have about 3 months. | Emotion: calm
+2024-08-09 22:32:46,007 - INFO - Line: Do you? Do you do your? | Emotion: calm
+2024-08-09 22:32:48,863 - INFO - Line: Own gardening. We live on uh, it used to be a farm, but we don't farm it. We uh, but we do. | Emotion: calm
+2024-08-09 22:32:51,754 - INFO - Line: Have a garden, right? | Emotion: calm
+2024-08-09 22:32:54,624 - INFO - Line: See, I got mine in. Well let's see, I put in pepper plants this weekend. | Emotion: calm
+2024-08-09 22:32:57,381 - INFO - Line: Yeah, I got all my little seedlings coming up in the kitchen and I enjoy tinkering with it. You know, it's pretty hot down here during the summer. We hit, you know, a hundred, 102 sometimes. So, you know, we don't do too much during the summer as far as tomatoes and stuff like that. | Emotion: calm
+2024-08-09 22:33:00,177 - INFO - Line: Yeah, I can. Usually I can put in, oh, probably mid March. I can put anything in the ground, you know, beets and onions and stuff like that. | Emotion: calm
+2024-08-09 22:33:03,058 - INFO - Line: But then I have to wait for my tomatoes have to go in here in the next couple of weeks, and as soon as we're sure we're not going to have another freeze, then I'll finish it. | Emotion: calm
+2024-08-09 22:33:05,943 - INFO - Line: Yeah, we've had just a few. You know, it freezes a little here and there, but every once in a while we get a freeze around the middle of April and it's pretty tough. Are you do? | Emotion: calm
+2024-08-09 22:33:08,798 - INFO - Line: You work or are you retired? | Emotion: calm
+2024-08-09 22:33:11,663 - INFO - Line: Or no, I work. Umm, I'm only 40 years old, I have to work. | Emotion: calm
+2024-08-09 22:33:14,659 - INFO - Line: My husband's retired, but he's not a gardener. He, he's, he's been helping me more, but he really isn't, uh, real crazy about. | Emotion: calm
+2024-08-09 22:33:17,627 - INFO - Line: I, I really enjoy it. It gives me time outdoors and you know, I'm a golfer, but it gives me time outdoors and time around my house. And I burn my grass off here in the last couple of days and getting ready to start for the spring season and seeing if I can grow me another nice lawn. I usually have a pretty nice lawn. It's a lot of work. | Emotion: calm
+2024-08-09 22:33:17,627 - INFO - Overall predicted emotion: ('OK.', 'calm')
+2024-08-09 22:33:17,628 - INFO - Emotion prediction completed for /Users/mahmoudhamsho/repos/emotion_recognition/notebooks/oot_audio/sample_customer_service_cal.wav

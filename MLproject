@@ -1,0 +1,22 @@
+name: emotion_recognition
+
+conda_env: conda_env.yml
+
+entry_points:
+  main:
+    parameters:
+      data_path: {type: string, default: "wasbs://ravdess-audio@yourstorageaccount.blob.core.windows.net"}
+      model_type: {type: string, default: "multimodal"}
+      num_epochs: {type: int, default: 10}
+      batch_size: {type: int, default: 32}
+      learning_rate: {type: float, default: 0.001}
+    command: "python src/train.py --data_path {data_path} --model_type {model_type} --num_epochs {num_epochs} --batch_size {batch_size} --learning_rate {learning_rate}"
+
+  azure:
+    parameters:
+      data_path: {type: string, default: "wasbs://ravdess-audio@yourstorageaccount.blob.core.windows.net"}
+      model_type: {type: string, default: "multimodal"}
+      num_epochs: {type: int, default: 10}
+      batch_size: {type: int, default: 32}
+      learning_rate: {type: float, default: 0.001}
+    command: "python src/train.py --data_path {data_path} --model_type {model_type} --num_epochs {num_epochs} --batch_size {batch_size} --learning_rate {learning_rate}"
